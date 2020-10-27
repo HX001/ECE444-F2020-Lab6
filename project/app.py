@@ -5,6 +5,7 @@ from flask import Flask, g, render_template, request, session, \
     flash, redirect, url_for, jsonify, abort
 from flask_sqlalchemy import SQLAlchemy
 from functools import wraps
+import os
 
 
 basedir = Path(__file__).resolve().parent
@@ -26,6 +27,11 @@ app.config.from_object(__name__)
 db = SQLAlchemy(app)
 
 from project import models
+
+SQLALCHEMY_DATABASE_URI = os.getenv(
+    'DATABASE_URL',
+    f'sqlite:///{Path(basedir).joinpath(DATABASE)}'
+)
 
 
 @app.route('/')
