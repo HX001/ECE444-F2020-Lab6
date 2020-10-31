@@ -4,6 +4,7 @@
 - This repo is a replay of the example of https://github.com/mjhea0/flaskr-tdd
 
 ## Part 2: Test Cases 
+Here is the url of the test function I added to our group project:
 - https://github.com/ECE444-2020Fall/project1-webapp-group1-nightowls/blob/FrontEnd_Hong/cookpilot-web/src/test/App.test.js#L24-L89
 
 ## Part 3: What are the pros and cons of TDD?
