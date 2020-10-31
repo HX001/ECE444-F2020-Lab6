@@ -12,7 +12,7 @@ TDD, Test-Driven Development, is a software development methodology, that develo
 Pros:
 1. By wring a small test initially, it may force the developer to focus on specific module in order to against the test cases. In a word, TDD helps developer to  learn, understand, and internalize the key principles of good modular design. Also, TDD helps developer to clarify the purpose. Before developer start writing the production code, they must first think about the input and output and the corresponding logic behind it. Writing test cases that meet the requirements, and increase the understanding of the requirements.
 
-2. In order to make sure the production code is unit-testable, TDD forces the developer to design a good architecture, and the developed code is self-modulized.
+2. In order to make sure the production code is unit-testable, TDD forces the developer to design a good architecture, and the developed code is modulized corresponding to each test case.
 
 3. TDD ensures the efficiency of the collaboration between the team members. Team member can edit the code wrotten by others as long as the test case passed because the result of unit tests allow the developer know whether if the changes are making the code behave in unexpected ways.
 
