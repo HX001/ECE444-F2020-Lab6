@@ -10,7 +10,7 @@
 TDD, Test-Driven Development, is a software development methodology, that developer needs to run a set of tests before actually writing code. The idea is that the test cases will fail at the beginning, and the developer needs to write enough code to make each test case pass at the end. There is another way by doing test-driven development, the developer first writes the code for each module and then writes the test to the actual performance of the code. By doing this, the quality of the code can be measured. There are some pros and cons by doing TDD, they are listed below:
 
 Pros:
-1. By wring a small test initially, it may force the developer to focus on specific module in order to against the test cases. In a word, TDD helps developer to  learn, understand, and internalize the key principles of good modular design. Also, TDD helps developer to clarify the purpose. Before developer start writing the production code, they must first think about the input and output and the corresponding logic behind it. Writing test cases that meet the requirements, and increase the understanding of the requirements.
+1. By writing a small test initially, it may force the developer to focus on specific module in order to against the test cases. In a word, TDD helps developer to  learn, understand, and internalize the key principles of good modular design. Also, TDD helps developer to clarify the purpose. Before developer start writing the production code, they must first think about the input and output and the corresponding logic behind it. Writing test cases that meet the requirements, and increase the understanding of the requirements.
 
 2. In order to make sure the production code is unit-testable, TDD forces the developer to design a good architecture, and the developed code is modulized corresponding to each test case.
 
@@ -18,7 +18,7 @@ Pros:
 
 4. TDD saves developers time on degbugging since the unit test case allows developer get closer to the problem quickly.
 
-5. Also, TDD insure encourages small steps and improves the design because it help the developer to cut the unnecessary dependencies to facilitate the setup.
+5. TDD insures encourages small steps and improves the design because it help the developer to cut the unnecessary dependencies to facilitate the setup.
 
 6. TDD makes the developer to organize the code more clearly.Testing while writing also forces you to try to make your interfaces clean enough to be tested
 
