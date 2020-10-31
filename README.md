@@ -4,7 +4,7 @@
 - Source example: https://github.com/mjhea0/flaskr-tdd
 
 ## Part 2: Test Cases 
-- https://github.com/ECE444-2020Fall/project1-webapp-group1-nightowls/blob/FrontEnd_Hong/cookpilot-web/src/test/App.test.js
+- https://github.com/ECE444-2020Fall/project1-webapp-group1-nightowls/blob/FrontEnd_Hong/cookpilot-web/src/test/App.test.js#L24-L89
 
 ## Part 3: What are the pros and cons of TDD?
 TDD, Test-Driven Development, is a software development methodology, that developer needs to run a set of tests before actually writing code. The idea is that the test cases will fail at the beginning, and the developer needs to write enough code to make each test case pass at the end. There is another way by doing test-driven development, the developer first writes the code for each module and then writes the test to the actual performance of the code. By doing this, the quality of the code can be measured. There are some pros and cons by doing TDD, they are listed below:
